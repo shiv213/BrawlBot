@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23d177bf-686e-48b4-b811-e995525548df" name="Changes" comment="" />
+    <list default="true" id="23d177bf-686e-48b4-b811-e995525548df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -50,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648247248460</updated>
       <workItem from="1648247251291" duration="990000" />
+      <workItem from="1648285225621" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="init and refacting">
       <created>1648247797080</created>

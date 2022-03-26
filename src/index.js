@@ -1,7 +1,7 @@
-const {REST} = require("@discordjs/rest"); // Define REST.
-const {Routes} = require("discord-api-types/v9"); // Define Routes.
+const { REST } = require("@discordjs/rest"); // Define REST.
+const { Routes } = require("discord-api-types/v9"); // Define Routes.
 const fs = require("fs"); // Define fs (file system).
-const {Client, Intents, Collection} = require("discord.js"); // Define Client, Intents, and Collection.
+const { Client, Intents, Collection } = require("discord.js"); // Define Client, Intents, and Collection.
 const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 }); // Connect to our discord bot.
@@ -12,16 +12,16 @@ const token = process.env.DISCORD_TOKEN; // Token from Railway Env Variable.
 client.once("ready", () => {
     const commandFiles = fs
         .readdirSync("src/commands")
-        .filter(file => file.endsWith(".js")); // Get and filter all the files in the "commands" Folder.
+        .filter(file => file.endsWith(".js")); // Get and filter all the files in the "Commands" Folder.
 
     // Loop through the command files
     for (const file of commandFiles) {
-        const command = require(`./src/commands/${file}`); // Get and define the command file.
+        const command = require(`./commands/${file}`); // Get and define the command file.
         commands.set(command.data.name, command); // Set the command name and file for handler to use.
         commandarray.push(command.data.toJSON()); // Push the command data to an array (for sending to the API).
     }
 
-    const rest = new REST({version: "9"}).setToken(token); // Define "rest" for use in registering commands
+    const rest = new REST({ version: "9" }).setToken(token); // Define "rest" for use in registering commands
     // Register slash commands.
     ;(async () => {
         try {
