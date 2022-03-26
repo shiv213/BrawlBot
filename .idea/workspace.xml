@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23d177bf-686e-48b4-b811-e995525548df" name="Changes" comment="">
+    <list default="true" id="23d177bf-686e-48b4-b811-e995525548df" name="Changes" comment="init and refacting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <list id="8259b70b-1e55-432d-9091-7310e524766a" name="Changes by shiv" comment="">
+      <change beforePath="$PROJECT_DIR$/src/commands/ping.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ping.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +29,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/index.js">
+      <ranges>
+        <range start1="0" end1="2" start2="0" end2="2" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
+        <range start1="3" end1="4" start2="3" end2="4" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
+        <range start1="5" end1="6" start2="5" end2="6" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
+        <range start1="10" end1="10" start2="10" end2="21" changelist="23d177bf-686e-48b4-b811-e995525548df" />
+        <range start1="12" end1="23" start2="23" end2="23" changelist="23d177bf-686e-48b4-b811-e995525548df" />
+        <range start1="24" end1="25" start2="24" end2="25" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
+        <range start1="41" end1="41" start2="41" end2="42" changelist="23d177bf-686e-48b4-b811-e995525548df" />
+        <range start1="59" end1="59" start2="60" end2="77" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
