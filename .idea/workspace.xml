@@ -5,10 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
-    <list id="8259b70b-1e55-432d-9091-7310e524766a" name="Changes by shiv" comment="">
-      <change beforePath="$PROJECT_DIR$/src/commands/ping.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list id="8259b70b-1e55-432d-9091-7310e524766a" name="Changes by shiv" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,20 +27,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/index.js">
-      <ranges>
-        <range start1="0" end1="2" start2="0" end2="2" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
-        <range start1="3" end1="4" start2="3" end2="4" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
-        <range start1="5" end1="6" start2="5" end2="6" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
-        <range start1="10" end1="10" start2="10" end2="21" changelist="23d177bf-686e-48b4-b811-e995525548df" />
-        <range start1="12" end1="23" start2="23" end2="23" changelist="23d177bf-686e-48b4-b811-e995525548df" />
-        <range start1="24" end1="25" start2="24" end2="25" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
-        <range start1="41" end1="41" start2="41" end2="42" changelist="23d177bf-686e-48b4-b811-e995525548df" />
-        <range start1="59" end1="59" start2="60" end2="77" changelist="8259b70b-1e55-432d-9091-7310e524766a" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -59,6 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/commands" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +63,7 @@
       <updated>1648247248460</updated>
       <workItem from="1648247251291" duration="990000" />
       <workItem from="1648285225621" duration="1257000" />
+      <workItem from="1648336164994" duration="4227000" />
     </task>
     <task id="LOCAL-00001" summary="init and refacting">
       <created>1648247797080</created>

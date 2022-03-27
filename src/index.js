@@ -60,20 +60,18 @@ client.on("interactionCreate", async interaction => {
 });
 
 client.on('presenceUpdate', async (oldMember, newMember) => {
-    console.log(oldMember);
-    if (!newMember.user.bot) {
-        if (oldMember.presence.game === 'offline' && newMember.presence.status !== 'offline') {
-            console.log(newMember.nickname);
-            console.log(newMember.displayName);
-            console.log(newMember.id);
-            console.log(newMember.guild.id);
-            console.log(newMember.nickname + " is online!");
+    console.log("presence change")
+    console.log(newMember)
+    let channel = newMember.guild.channels.fetch('957027456429199370').then(c => {
+        let curr_activities = []
+        newMember.activities.forEach(x => curr_activities.push(x.name));
+        console.log(curr_activities);
+        // TODO Check if just started or has been playing
+        // @Ahaan Kanaujia <kanaujia.ahaan@gmail.com>
+        if (curr_activities.includes("bash")) {
+            c.send("@everyone <@!" + newMember.userId + "> is now playing Brawlhalla!");
         }
-
-        if (newMember.presence.status === 'offline' && oldMember.presence.status !== 'offline') {
-            console.log(newMember.nickname + " is offline!");
-        }
-    }
+    });
 });
 
 client.login(token); // Login to the bot client via the defined "token" string.
